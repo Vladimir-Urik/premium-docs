@@ -6,12 +6,12 @@ const config: DocsThemeConfig = {
   primaryHue: 91,
   primarySaturation: 100,
   project: {
-    link: 'https://github.com/Vladimir-Urik/free-resources-docs',
+    link: 'https://github.com/Vladimir-Urik/premium-docs',
   },
   chat: {
     link: 'https://discord.gg/zj72haU7gN',
   },
-  docsRepositoryBase: 'https://github.com/Vladimir-Urik/free-resources-docs/tree/main/',
+  docsRepositoryBase: 'https://github.com/Vladimir-Urik/premium-docs/tree/main/',
   footer: {
     text: 'GGGEDR\'s Free Resources Docs',
   },
