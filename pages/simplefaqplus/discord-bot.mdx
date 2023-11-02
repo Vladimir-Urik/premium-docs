@@ -1,0 +1,20 @@
+# 👉 How to setup Discord Bot
+
+1. Go to: [discord.com/developers/applications](https://discord.com/developers/applications) and click on the "New Application" link in the top right corner.
+2. Choose a name for your discord bot, confirm the discord terms and click on "Create"
+![Create Application](https://i.imgur.com/Y7wYDXL.png)
+3. In the sidebar on the left select "Bot"
+![Bot](https://i.imgur.com/P4AVLGL.png)
+4. Turn off the "Public bot" option and turn on all "Privileged Gateway Intents"
+![Bot Settings](https://i.imgur.com/uZRoirf.gif)
+5. You can also edit your bot's name and profile photo at the top of the page.
+![Bot Settings](https://i.imgur.com/Hw44cM1.png)
+6. Reset your discord bot token using the "Reset token" button.
+![Reset Token](https://i.imgur.com/O9UyS2q.png)
+7. Paste the token that appears into discord.yml
+![discord.yml](https://i.imgur.com/T3KSplG.png)
+8. Copy the role, channel, discord server ids and paste them into this config as well.
+9. In the left sidebar, click on "General Information" and copy your Application ID.
+![Application ID](https://i.imgur.com/zetKFuq.png)
+10. Add your discord bot to your server using the link (don't forget to overwrite with the id you copied.): `https://discord.com/oauth2/authorize?client_id=<application-id>&permissions=18432&scope=bot%20applications.commands%20applications.commands.permissions.update`
+![Add Bot](https://i.imgur.com/5LRIYex.png)
